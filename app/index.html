@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>ConceptualEyes: Concept relationship mapping made easy</title>
+<link rel='stylesheet' href='style.css'>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js'></script>
+<script src='https://cdn.firebase.com/js/client/2.2.7/firebase.js'></script>
+</head>
+<body>
+<header id='header'>
+<img id='logo' src='logo.png' title='ConceptualEyes'>
+    <p>Enter your concepts and relationships below:</p>
+    <form>
+        <label>
+					<span>Concept 1</span>
+        	<input type='text' id='source_field'  name='Concept 1' placeholder='Enter a concept' required>
+				</label>
+        <label>
+					<span>Relationship</span>
+        	<input type='text' id='relationship_field' name='Relationship' placeholder='Describe the relationship'>
+				</label>
+        <label>
+					<span>Concept 2</span>
+					<input type='text' id='target_field' name='Concept 2' placeholder='Enter the related concept' required>
+				</label>
+        <button id='add_rel_btn'>Add to map</button>    
+    </form>
+</header>
+<script src='map.js'></script>
+</body>
+</html>

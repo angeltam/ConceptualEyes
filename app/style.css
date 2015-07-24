@@ -1,0 +1,31 @@
+html {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+#logo {
+	max-width: 100%;
+}
+
+label, button {
+	display: inline-block;
+	margin: 0.5em;
+}
+
+input[type='text'] {
+	border: 1px solid #999;
+	border-radius: 0.25em;
+	padding: 2px;
+}
+
+#map {
+    font-size: 1em;
+}
+
+.link {
+    stroke: #555;
+}
+
+.nodetxt {
+  fill: #fff;
+}
